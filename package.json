@@ -1,0 +1,57 @@
+{
+  "name": "spacex-graphql-api",
+  "version": "1.0.0",
+  "description": "Discover real SpaceX data made in 🌎 by & for humans!",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon",
+    "generate": "gql-gen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swcarlosrj/SpaceX-Land"
+  },
+  "keywords": ["typescript", "spacex", "graphql"],
+  "author": "Carlos Rufo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/swcarlosrj/SpaceX-Land/issues"
+  },
+  "homepage": "https://github.com/swcarlosrj/SpaceX-Land",
+  "dependencies": {
+    "apollo-server-express": "^2.3.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-rate-limit": "^1.2.2",
+    "graphql-tag": "^2.10.0",
+    "graphql-validation-complexity": "^0.2.4",
+    "lodash": "^4.17.11",
+    "lower-case": "^1.1.4",
+    "moment": "^2.23.0",
+    "mongodb": "^3.1.10",
+    "sofa-api": "0.2.2",
+    "swagger-ui-express": "^4.0.2",
+    "ts-node": "^8.0.0",
+    "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.16.1",
+    "babel-runtime": "6.26.0",
+    "eslint": "5.12.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.15.0",
+    "eslint-plugin-jest": "22.1.3",
+    "eslint-plugin-jsx-a11y": "6.2.0",
+    "eslint-plugin-mongodb": "1.0.0",
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-security": "1.4.0",
+    "graphql-code-generator": "0.16.0",
+    "graphql-codegen-typescript-common": "0.16.0",
+    "graphql-codegen-typescript-resolvers": "0.16.0",
+    "graphql-codegen-typescript-server": "0.16.0",
+    "nodemon": "1.18.9"
+  }
+}
